@@ -19,3 +19,5 @@ gulp.task('web', function() {
             open: true
         }));
 })
+
+gulp.task('default', ['pug', 'web']);
